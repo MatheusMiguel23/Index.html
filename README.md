@@ -15,12 +15,13 @@
 
     <div style="background: #222; padding: 20px; border-radius: 10px; display: inline-block; margin-top: 20px;">
         <py-script>
-print("Olá, Maria Sophia!")
-# Nota: O comando input() no PyScript pode se comportar de forma diferente de um terminal comum.
-# Por enquanto, vamos focar em exibir as mensagens.
-idade = 18 
-gosto = "Programar"
-print(f"Você tem {idade} anos e gosta de {gosto}")
+print("olá Maria Sophia")
+idade=input("qual sua idade?")
+gosto=input("de quem você gosta?")
+altura=input("qual a sua altura?")
+print("você tem",idade,"anos")
+print("você gosta de",gosto)
+print("e tem de altura",altura,"cm")
         </py-script>
     </div>
 
