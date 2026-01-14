@@ -2,42 +2,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Meu primeiro site</title>
-
-    <style>
-        body {
-            background-color: #121212;
-            color: white;
-            font-family: Arial;
-            text-align: center;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Mobile</title>
 </head>
-<body>
-
-    <h1>Olá Maria Sophia</h1>
-
-    <button onclick="perguntar()">Clique aqui</button>
-
-    <p id="resultado"></p>
-
-    <script>
-        function perguntar() {
-            let idade = prompt("Qual sua idade?");
-            let gosto = prompt("De quem você gosta?");
-            let altura = prompt("Qual sua altura?");
-
-            document.getElementById("resultado").innerHTML =
-                "Você tem " + idade + " anos<br>" +
-                "Você gosta de " + gosto + "<br>" +
-                "E tem " + altura + " cm de altura";
-        }
-    </script>
-
+<body style="background-color: #1a1a1a; color: white; text-align: center; font-family: sans-serif; padding: 50px;">
+    <h1 style="color: #4CAF50;">🚀 Meu Site está Online!</h1>
+    <p>Este projeto foi criado e publicado inteiramente pelo meu celular.</p>
+    <hr style="border: 0.5px solid #333;">
+    <p>Matheus Miguel - 2026</p>
 </body>
 </html>
