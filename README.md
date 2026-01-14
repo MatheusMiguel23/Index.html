@@ -15,13 +15,10 @@
 
     <div style="background: #222; padding: 20px; border-radius: 10px; display: inline-block; margin-top: 20px;">
         <py-script>
-print("olá Maria Sophia")
-idade=input("qual sua idade?")
-gosto=input("de quem você gosta?")
-altura=input("qual a sua altura?")
-print("você tem",idade,"anos")
-print("você gosta de",gosto)
-print("e tem de altura",altura,"cm")
+nome = "Maria Sophia"
+idade = 18
+print(f"Olá {nome}! Você tem {idade} anos.")
+
         </py-script>
     </div>
 
