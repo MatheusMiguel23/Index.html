@@ -1,4 +1,4 @@
-<html lang="pt-br">
+<html>
 <head>
 
 <py-script>
@@ -14,3 +14,4 @@ print("e tem de altura",altura,"cm")
 <header>
     <h1>Meu Site Famoso 🔥</h1>
 </header>
+</html>
