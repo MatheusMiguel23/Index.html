@@ -15,9 +15,7 @@
 
     <div style="background: #222; padding: 20px; border-radius: 10px; display: inline-block; margin-top: 20px;">
         <py-script>
-nome = "Maria Sophia"
-idade = 18
-print(f"Olá {nome}! Você tem {idade} anos.")
+print("olá mundo")
 
         </py-script>
     </div>
