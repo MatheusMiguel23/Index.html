@@ -1,13 +1,58 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Mobile</title>
+<meta charset="UTF-8">
+<title>Site com Anúncios</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    width: 70%;
+    padding: 20px;
+}
+
+aside {
+    width: 30%;
+    background: #1a1a1a;
+    padding: 10px;
+}
+
+.ad {
+    background: #333;
+    border: 2px dashed yellow;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 15px;
+}
+</style>
 </head>
-<body style="background-color: #1a1a1a; color: white; text-align: center; font-family: sans-serif; padding: 50px;">
-    <h1 style="color: #4CAF50;">🚀 Meu Site está Online!</h1>
-    <p>Este projeto foi criado e publicado inteiramente pelo meu celular.</p>
-    <hr style="border: 0.5px solid #333;">
-    <p>Matheus Miguel - 2026</p>
-</body>
-</html>
+
+<body>
+
+<header>
+    <h1>Meu Site Famoso 🔥</h1>
+</header
